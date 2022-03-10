@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{91702894-c365-4465-b0fd-a19d6e2b69e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes\VAOManager">
+      <UniqueIdentifier>{43fc77fb-1119-4940-a586-cc946e0dae51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light Manager">
+      <UniqueIdentifier>{34050f2d-5778-466c-bd9d-454e9fc8111b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{aad5ca6e-863b-4ca2-9a8b-3cac0678c138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{dd1f231f-b364-48e9-8a01-a821346b1787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{8fd104df-9089-4b03-a894-42a7d41b5d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{fb6c3f4e-5fcc-46f1-b309-67c496d8bd1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{3a9c40e9-b702-4457-b8e1-19b77762e597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Manager">
+      <UniqueIdentifier>{fd239305-f91b-45e2-8891-adbd517094c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="T LoadPNG">
+      <UniqueIdentifier>{79fed898-1c70-4a1e-bb27-83aabc5e5a76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager.cpp">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper.cpp">
+      <Filter>Light Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="globalThings.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Shutdown.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="StartUp.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="cShader.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cShaderManager.cpp">
+      <Filter>ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cFlyCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandling.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_key_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_error_callback.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="cGLFWKeyboadModifiers.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject_function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>T LoadPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng_fuzzer.cpp">
+      <Filter>T LoadPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng_util.cpp">
+      <Filter>T LoadPNG</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\C24BitBMPpixel.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\cBasicTextureManager.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMapping\CTextureFromBMP.cpp">
+      <Filter>Texture Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager.h">
+      <Filter>Meshes\VAOManager</Filter>
+    </ClInclude>
+    <ClInclude Include="sVertex_types.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMesh.h">
+      <Filter>Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper.h">
+      <Filter>Light Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="globalThings.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="cShaderManager.h">
+      <Filter>ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="iCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="cFlyCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>T LoadPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng_util.h">
+      <Filter>T LoadPNG</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\C24BitBMPpixel.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\cBasicTextureManager.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMapping\CTextureFromBMP.h">
+      <Filter>Texture Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\assets\shaders\fragShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+    <None Include="..\common\assets\shaders\vertShader_01.glsl">
+      <Filter>ShaderManager\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\common\assets\worldFile.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
